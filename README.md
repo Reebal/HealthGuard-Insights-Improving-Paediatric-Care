@@ -16,6 +16,8 @@ Insights and recommendations are provided on the following key areas:
 
 ### Data Exploration and Filtering: 
 The dataset includes details on children insured by public, private, both, or neither insurance types. For this analysis, only public and private insurance data is considered. The CAHMI data dictionary was used to select relevant columns and ensure accurate data transformation. Column names were then renamed for clarity and consistency with the project's terminology. The variables in this dataset are categorical, either nominal or ordinal.  
+  
+  ![Data_dictionary](Images/data-dict.png)
 
 ### Data cleaning (Python): 
 - Imported the dataset into a pandas dataframe. Reviewed the data types and checked for missing values using isnull().
@@ -52,15 +54,29 @@ Additionally, private insurance participants report fewer unmet healthcare needs
 ### Employment and income influences on insurance choice:
 - Insurance Choice: Caregivers in higher income brackets (200-399% FPL, 400% FPL) favored private insurance, while those in lower income brackets (0-99% FPL, 100-199% FPL) predominantly chose public insurance.
 
+  ![public-category2](Images/public-category2.png)
+  ![private-category2](Images/private-category2.png)
+  
 ### Unmet healthcare needs and Family-Centered care:
 - Unmet Healthcare Needs: 8% of participants reported unmet healthcare needs; 5% were public insurance holders, while 3% had private insurance. Public insurance holders also reported higher frustration with accessing services (4.59% vs. 2.14% for private insurance).
 - Family-Centered Care: Private insurance participants reported better experiences with family-centered care, including careful listening, time spent, and involvement.
 
+  ![public-category3](Images/public-category3.png)
+  ![private-category3](Images/private-category3.png)
+  ![public-category3b](Images/public-category3b.png)
+  ![private-category3b](Images/private-category3b.png)
+
 ### Mental healthcare & treatment availability:
 - Mental Healthcare Access: 95% of private insurance participants found it easy to access mental healthcare, compared to a lower percentage of public insurance participants.
 
+  ![public-category4](Images/public-category4.png)
+  ![private-category4](Images/private-category4.png)
+
 ### COVID-19 impact on healthcare access:
 - Healthcare Access During COVID-19: Private insurance participants had better access to video/phone consultations. However, public insurance participants (48.26%) reported more availability of childcare services compared to private insurance participants (41.66%).
+
+  ![public-category5](Images/public-category5.png)
+  ![private-category5](Images/private-category5.png)
 
 # Recommendations
 Based on the findings of the comparative analysis of healthcare access and utilization for children with public and private insurance plans, we recommend the following to support HealthGuard’s objectives and improve customer satisfaction:

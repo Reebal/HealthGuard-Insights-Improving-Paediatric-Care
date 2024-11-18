@@ -19,23 +19,41 @@ The dataset includes details on children insured by public, private, both, or ne
   
   ![Data_dictionary](Images/data-dict.png)
 
+The Python code written to clean and filter data is available [here](insurance-health.pynb).
+
+The Excel file where all the data manipulation was done can be found [here](filtered_data.xlsx).
+
 ### Data cleaning (Python): 
 - Imported the dataset into a pandas dataframe. Reviewed the data types and checked for missing values using isnull().
+  
+  ![dc1](Images/dc1.png)
 - Replaced '?' values with NaN using numpy.
+  
+  ![dc2](Images/dc2.png)
 - Created a bar plot to compare the percentage of children with different types of insurance using matplotlib.
+  
+  ![dc3](Images/dc3.png)
 - Filtered the dataset to include only children with public or private insurance. The cleaned dataset is available for download as filtered_data.xlsx.
- 
-The python code written to clean and filter data is available here. 
+  
+  ![dc4](Images/dc4.png)
+
+![comparison](Images/comparison.png)
 
 ### Data manipulation (Excel): 
 I chose Excel for its user-friendly interface, robust built-in functions, and ease of creating visualizations. To compare different types of healthcare services (General Medical Care, Dental Care, Eye Care) for children with public versus private insurance, I utilized pivot tables and slicers to generate the bar charts. 
 - For example, I created pivot tables by pulling the ‘MEDICAL_CARE’ variable into the Values and Legend sections.
 - Formatted the values to summarize by count and display percentages of the grand total.
+
+  ![dm1](Images/dm1.png)
 - After setting up the pivot table, selected the data and inserted a 2D column chart through Insert > Chart > 2D Column.
-- Added a slicer for dynamic filtering by selecting PivotTable Analyze > Insert Slicer and choosing the ‘INSURANCE_TYPE’ column. This allows for seamless toggling between public and private insurance data views. 
+- Added a slicer for dynamic filtering by selecting PivotTable Analyze > Insert Slicer and choosing the ‘INSURANCE_TYPE’ column. This allows for seamless toggling between public and private insurance data views.
+
+  ![dm2](Images/dm2.png)
  
 ### Data visualization: 
 After creating the pivot tables and their corresponding charts/graphs, I consolidated them into a single worksheet to build a comprehensive, dynamic dashboard. This setup allows for an interactive experience where users can visualize the percentage distribution of various healthcare services and benefits by selecting either public or private insurance using the slicer at the top. This approach provides a clear and immediate comparison between the two insurance types in a single, cohesive view.
+
+  ![private-dashboard](Images/private-dashboard.png)
  
 # Executive summary
 
@@ -59,10 +77,11 @@ Additionally, private insurance participants report fewer unmet healthcare needs
   
 ### Unmet healthcare needs and Family-Centered care:
 - Unmet Healthcare Needs: 8% of participants reported unmet healthcare needs; 5% were public insurance holders, while 3% had private insurance. Public insurance holders also reported higher frustration with accessing services (4.59% vs. 2.14% for private insurance).
-- Family-Centered Care: Private insurance participants reported better experiences with family-centered care, including careful listening, time spent, and involvement.
 
   ![public-category3](Images/public-category3.png)
   ![private-category3](Images/private-category3.png)
+- Family-Centered Care: Private insurance participants reported better experiences with family-centered care, including careful listening, time spent, and involvement.
+
   ![public-category3b](Images/public-category3b.png)
   ![private-category3b](Images/private-category3b.png)
 

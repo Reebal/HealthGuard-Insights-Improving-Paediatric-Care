@@ -46,8 +46,8 @@ Additionally, private insurance participants report fewer unmet healthcare needs
 - Healthcare Comparison (General, Dental, Eye): Private insurance participants generally received more general medical care, while public insurance holders had higher access to dental and eye care services.
 - Preventive Care: 84.08% of private insurance participants had preventive care visits, compared to 77.31% of public insurance participants.
 
-  !(public-category1)[Images/public-category1.png]
-  
+  ![public-category1](Images/public-category1.png)
+  ![private-category1](Images/private-category1.png)
 
 ### Employment and income influences on insurance choice:
 - Insurance Choice: Caregivers in higher income brackets (200-399% FPL, 400% FPL) favored private insurance, while those in lower income brackets (0-99% FPL, 100-199% FPL) predominantly chose public insurance.

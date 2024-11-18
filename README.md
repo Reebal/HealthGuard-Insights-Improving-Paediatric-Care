@@ -6,11 +6,11 @@ In this project, I conducted a comparative analysis of healthcare access and uti
 The findings were presented in interactive dashboards to enable stakeholders to visualize trends, identify disparities, and explore opportunities to improve customer satisfaction and align with organizational KPIs. These insights aim to support data-driven strategies that enhance healthcare access and utilization for insured children.
 
 Insights and recommendations are provided on the following key areas:
-•	Healthcare Access and Utilization
-•	Employment and Income Influences on Insurance Choice
-•	Unmet Healthcare Needs and Family-Centered Care
-•	Mental healthcare & Treatment availability
-•	COVID-19 Impact on Healthcare Access
+- Healthcare access and utilization
+- Employment and income influences on insurance choice
+- Unmet healthcare needs and Family-Centered care
+- Mental healthcare & treatment availability
+- COVID-19 impact on healthcare access
 
 # Data Structure & Initial Checks
 
@@ -42,21 +42,21 @@ This analysis reveals key disparities in healthcare access between children with
 Additionally, private insurance participants report fewer unmet healthcare needs (3%) compared to public insurance participants (5%), and they also report fewer frustrations accessing care, with 2.14% of private insurance holders expressing frustration versus 4.59% of public insurance holders.
 
 # Insights Deep Dive
-### Healthcare Access and Utilization:
+### Healthcare access and utilization:
 - Healthcare Comparison (General, Dental, Eye): Private insurance participants generally received more general medical care, while public insurance holders had higher access to dental and eye care services.
 - Preventive Care: 84.08% of private insurance participants had preventive care visits, compared to 77.31% of public insurance participants.
 
-### Employment and Income Influences on Insurance Choice:
+### Employment and income influences on insurance choice:
 - Insurance Choice: Caregivers in higher income brackets (200-399% FPL, 400% FPL) favored private insurance, while those in lower income brackets (0-99% FPL, 100-199% FPL) predominantly chose public insurance.
 
-### Unmet Healthcare Needs and Family-Centered Care:
+### Unmet healthcare needs and Family-Centered care:
 - Unmet Healthcare Needs: 8% of participants reported unmet healthcare needs; 5% were public insurance holders, while 3% had private insurance. Public insurance holders also reported higher frustration with accessing services (4.59% vs. 2.14% for private insurance).
 - Family-Centered Care: Private insurance participants reported better experiences with family-centered care, including careful listening, time spent, and involvement.
 
-### Mental Healthcare & Treatment Availability:
+### Mental healthcare & treatment availability:
 - Mental Healthcare Access: 95% of private insurance participants found it easy to access mental healthcare, compared to a lower percentage of public insurance participants.
 
-### COVID-19 Impact on Healthcare Access:
+### COVID-19 impact on healthcare access:
 - Healthcare Access During COVID-19: Private insurance participants had better access to video/phone consultations. However, public insurance participants (48.26%) reported more availability of childcare services compared to private insurance participants (41.66%).
 
 # Recommendations

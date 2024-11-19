@@ -19,7 +19,7 @@ The dataset includes details on children insured by public, private, both, or ne
   
   ![Data_dictionary](Images/data-dict.png)
 
-The Python code written to clean and filter data is available [here](insurance-health.pynb).
+The Python code written to clean and filter data is available [here](insurance_health.ipynb).
 
 The Excel file where all the data manipulation was done can be found [here](filtered_data.xlsx).
 
